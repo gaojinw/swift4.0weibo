@@ -2,7 +2,7 @@ platform :ios, '8.0'
 
 inhibit_all_warnings!
 
-target "新浪微博swift" do
+target "weiboSwift" do
 
 
 use_frameworks!

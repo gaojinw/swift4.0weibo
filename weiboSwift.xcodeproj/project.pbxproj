@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3896F2548CDC50CACEB47DBD /* Pods_____swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB9FDBD8DD6C34598A92132 /* Pods_____swift.framework */; };
 		7A0EF4E61FE7634200B9A33F /* WBStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EF4E41FE7634200B9A33F /* WBStatusCell.swift */; };
 		7A0EF4E71FE7634200B9A33F /* WBStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0EF4E51FE7634200B9A33F /* WBStatusCell.xib */; };
 		7A0EF4E91FE76BC100B9A33F /* WBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EF4E81FE76BC100B9A33F /* WBUser.swift */; };
@@ -97,6 +96,7 @@
 		7AEAEB451FFB659200E753C5 /* HMPhotoBrowserPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAEB3E1FFB659100E753C5 /* HMPhotoBrowserPhotos.m */; };
 		7AEAEB461FFB659200E753C5 /* HMPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAEB401FFB659100E753C5 /* HMPhotoProgressView.m */; };
 		7AEAEB471FFB659200E753C5 /* HMPhotoViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAEB421FFB659100E753C5 /* HMPhotoViewerController.m */; };
+		8E9C500869163E385479F0AA /* Pods_weiboSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4746D1E47FE4714B666DCF21 /* Pods_weiboSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,8 +117,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CB9FDBD8DD6C34598A92132 /* Pods_____swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB9FDBD8DD6C34598A92132 /* Pods_____swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DC9ECD27FB6ECB9908AE52 /* Pods-新浪微博swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新浪微博swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-新浪微博swift/Pods-新浪微博swift.release.xcconfig"; sourceTree = "<group>"; };
+		4746D1E47FE4714B666DCF21 /* Pods_weiboSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weiboSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		515A95A85E43A580F2B2650D /* Pods-weiboSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiboSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weiboSwift/Pods-weiboSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		7A0EF4E41FE7634200B9A33F /* WBStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBStatusCell.swift; sourceTree = "<group>"; };
 		7A0EF4E51FE7634200B9A33F /* WBStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WBStatusCell.xib; sourceTree = "<group>"; };
 		7A0EF4E81FE76BC100B9A33F /* WBUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBUser.swift; sourceTree = "<group>"; };
@@ -154,17 +156,17 @@
 		7AB2FA6F1FEA5E4C00DB642C /* CZHumanRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZHumanRefreshView.xib; sourceTree = "<group>"; };
 		7AB2FA711FEA5FE400DB642C /* CZMeituanRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZMeituanRefreshView.swift; sourceTree = "<group>"; };
 		7AB2FA731FEA5FF100DB642C /* CZMeituanRefreshView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CZMeituanRefreshView.xib; sourceTree = "<group>"; };
-		7AB388071FD6367D00C7AC90 /* 新浪微博swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB388071FD6367D00C7AC90 /* weiboSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiboSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB3880A1FD6367D00C7AC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AB3880F1FD6367D00C7AC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AB388111FD6367D00C7AC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AB388141FD6367D00C7AC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AB388161FD6367D00C7AC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AB3881B1FD6367D00C7AC90 /* 新浪微博swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AB3881F1FD6367D00C7AC90 /* ____swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ____swiftTests.swift; sourceTree = "<group>"; };
+		7AB3881B1FD6367D00C7AC90 /* weiboSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB3881F1FD6367D00C7AC90 /* ____swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____swiftTests.swift"; sourceTree = "<group>"; };
 		7AB388211FD6367D00C7AC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AB388261FD6367D00C7AC90 /* 新浪微博swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AB3882A1FD6367D00C7AC90 /* ____swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ____swiftUITests.swift; sourceTree = "<group>"; };
+		7AB388261FD6367D00C7AC90 /* weiboSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB3882A1FD6367D00C7AC90 /* ____swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____swiftUITests.swift"; sourceTree = "<group>"; };
 		7AB3882C1FD6367D00C7AC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AB388421FD6394C00C7AC90 /* WBMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBMainViewController.swift; sourceTree = "<group>"; };
 		7AB388441FD6398B00C7AC90 /* WBNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBNavigationController.swift; sourceTree = "<group>"; };
@@ -206,7 +208,7 @@
 		7AB500BF1FD919550009F933 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
 		7AB500C01FD919550009F933 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		7AB500C11FD919550009F933 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
-		7AB500D21FD93D620009F933 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = main.json; path = "新浪微博swift/Classes/View(视图和控制器)/Main/main.json"; sourceTree = SOURCE_ROOT; };
+		7AB500D21FD93D620009F933 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = main.json; path = "weiboSwift/Classes/View(视图和控制器)/Main/main.json"; sourceTree = SOURCE_ROOT; };
 		7AB8DEB21FF1F89000CDD584 /* WBComposeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WBComposeViewController.storyboard; sourceTree = "<group>"; };
 		7AB8DEB41FF2338C00CDD584 /* WBComposeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBComposeTextView.swift; sourceTree = "<group>"; };
 		7ACD4A5A1FF6104D000F0E57 /* WBStatusListDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBStatusListDAL.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		7AEAEB401FFB659100E753C5 /* HMPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoProgressView.m; sourceTree = "<group>"; };
 		7AEAEB411FFB659100E753C5 /* HMPhotoViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoViewerController.h; sourceTree = "<group>"; };
 		7AEAEB421FFB659100E753C5 /* HMPhotoViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoViewerController.m; sourceTree = "<group>"; };
+		D58EC14B22BDB37B99AD8A5B /* Pods-weiboSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiboSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-weiboSwift/Pods-weiboSwift.release.xcconfig"; sourceTree = "<group>"; };
 		EA110314FA54AB5BA9ECF9E7 /* Pods-新浪微博swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新浪微博swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-新浪微博swift/Pods-新浪微博swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -241,7 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3896F2548CDC50CACEB47DBD /* Pods_____swift.framework in Frameworks */,
+				8E9C500869163E385479F0AA /* Pods_weiboSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +391,7 @@
 		7AB387FE1FD6367D00C7AC90 = {
 			isa = PBXGroup;
 			children = (
-				7AB388091FD6367D00C7AC90 /* 新浪微博swift */,
+				7AB388091FD6367D00C7AC90 /* weiboSwift */,
 				7AB3881E1FD6367D00C7AC90 /* 新浪微博swiftTests */,
 				7AB388291FD6367D00C7AC90 /* 新浪微博swiftUITests */,
 				7AB388081FD6367D00C7AC90 /* Products */,
@@ -400,14 +403,14 @@
 		7AB388081FD6367D00C7AC90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AB388071FD6367D00C7AC90 /* 新浪微博swift.app */,
-				7AB3881B1FD6367D00C7AC90 /* 新浪微博swiftTests.xctest */,
-				7AB388261FD6367D00C7AC90 /* 新浪微博swiftUITests.xctest */,
+				7AB388071FD6367D00C7AC90 /* weiboSwift.app */,
+				7AB3881B1FD6367D00C7AC90 /* weiboSwiftTests.xctest */,
+				7AB388261FD6367D00C7AC90 /* weiboSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AB388091FD6367D00C7AC90 /* 新浪微博swift */ = {
+		7AB388091FD6367D00C7AC90 /* weiboSwift */ = {
 			isa = PBXGroup;
 			children = (
 				7AB388381FD6392500C7AC90 /* Classes */,
@@ -418,7 +421,7 @@
 				7AB388131FD6367D00C7AC90 /* LaunchScreen.storyboard */,
 				7AB388161FD6367D00C7AC90 /* Info.plist */,
 			);
-			path = "新浪微博swift";
+			path = weiboSwift;
 			sourceTree = "<group>";
 		};
 		7AB3881E1FD6367D00C7AC90 /* 新浪微博swiftTests */ = {
@@ -661,6 +664,8 @@
 			children = (
 				EA110314FA54AB5BA9ECF9E7 /* Pods-新浪微博swift.debug.xcconfig */,
 				38DC9ECD27FB6ECB9908AE52 /* Pods-新浪微博swift.release.xcconfig */,
+				515A95A85E43A580F2B2650D /* Pods-weiboSwift.debug.xcconfig */,
+				D58EC14B22BDB37B99AD8A5B /* Pods-weiboSwift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -669,6 +674,7 @@
 			isa = PBXGroup;
 			children = (
 				1CB9FDBD8DD6C34598A92132 /* Pods_____swift.framework */,
+				4746D1E47FE4714B666DCF21 /* Pods_weiboSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -676,29 +682,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AB388061FD6367D00C7AC90 /* 新浪微博swift */ = {
+		7AB388061FD6367D00C7AC90 /* weiboSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AB3882F1FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "新浪微博swift" */;
+			buildConfigurationList = 7AB3882F1FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "weiboSwift" */;
 			buildPhases = (
 				99D6CF62A2FB630F97B010F0 /* [CP] Check Pods Manifest.lock */,
 				7AB388031FD6367D00C7AC90 /* Sources */,
 				7AB388041FD6367D00C7AC90 /* Frameworks */,
 				7AB388051FD6367D00C7AC90 /* Resources */,
 				A9A2B506B7ABDDEBD3D35DDE /* [CP] Embed Pods Frameworks */,
-				18E17EB3BE624E1757948195 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "新浪微博swift";
+			name = weiboSwift;
 			productName = "新浪微博swift";
-			productReference = 7AB388071FD6367D00C7AC90 /* 新浪微博swift.app */;
+			productReference = 7AB388071FD6367D00C7AC90 /* weiboSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7AB3881A1FD6367D00C7AC90 /* 新浪微博swiftTests */ = {
+		7AB3881A1FD6367D00C7AC90 /* weiboSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AB388321FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "新浪微博swiftTests" */;
+			buildConfigurationList = 7AB388321FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "weiboSwiftTests" */;
 			buildPhases = (
 				7AB388171FD6367D00C7AC90 /* Sources */,
 				7AB388181FD6367D00C7AC90 /* Frameworks */,
@@ -709,14 +714,14 @@
 			dependencies = (
 				7AB3881D1FD6367D00C7AC90 /* PBXTargetDependency */,
 			);
-			name = "新浪微博swiftTests";
+			name = weiboSwiftTests;
 			productName = "新浪微博swiftTests";
-			productReference = 7AB3881B1FD6367D00C7AC90 /* 新浪微博swiftTests.xctest */;
+			productReference = 7AB3881B1FD6367D00C7AC90 /* weiboSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7AB388251FD6367D00C7AC90 /* 新浪微博swiftUITests */ = {
+		7AB388251FD6367D00C7AC90 /* weiboSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AB388351FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "新浪微博swiftUITests" */;
+			buildConfigurationList = 7AB388351FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "weiboSwiftUITests" */;
 			buildPhases = (
 				7AB388221FD6367D00C7AC90 /* Sources */,
 				7AB388231FD6367D00C7AC90 /* Frameworks */,
@@ -727,9 +732,9 @@
 			dependencies = (
 				7AB388281FD6367D00C7AC90 /* PBXTargetDependency */,
 			);
-			name = "新浪微博swiftUITests";
+			name = weiboSwiftUITests;
 			productName = "新浪微博swiftUITests";
-			productReference = 7AB388261FD6367D00C7AC90 /* 新浪微博swiftUITests.xctest */;
+			productReference = 7AB388261FD6367D00C7AC90 /* weiboSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -759,7 +764,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AB388021FD6367D00C7AC90 /* Build configuration list for PBXProject "新浪微博swift" */;
+			buildConfigurationList = 7AB388021FD6367D00C7AC90 /* Build configuration list for PBXProject "weiboSwift" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -772,9 +777,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AB388061FD6367D00C7AC90 /* 新浪微博swift */,
-				7AB3881A1FD6367D00C7AC90 /* 新浪微博swiftTests */,
-				7AB388251FD6367D00C7AC90 /* 新浪微博swiftUITests */,
+				7AB388061FD6367D00C7AC90 /* weiboSwift */,
+				7AB3881A1FD6367D00C7AC90 /* weiboSwiftTests */,
+				7AB388251FD6367D00C7AC90 /* weiboSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -821,21 +826,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		18E17EB3BE624E1757948195 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博swift/Pods-新浪微博swift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		99D6CF62A2FB630F97B010F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -847,7 +837,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-新浪微博swift-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-weiboSwift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -860,7 +850,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博swift/Pods-新浪微博swift-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-weiboSwift/Pods-weiboSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -881,7 +871,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博swift/Pods-新浪微博swift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-weiboSwift/Pods-weiboSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -985,12 +975,12 @@
 /* Begin PBXTargetDependency section */
 		7AB3881D1FD6367D00C7AC90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AB388061FD6367D00C7AC90 /* 新浪微博swift */;
+			target = 7AB388061FD6367D00C7AC90 /* weiboSwift */;
 			targetProxy = 7AB3881C1FD6367D00C7AC90 /* PBXContainerItemProxy */;
 		};
 		7AB388281FD6367D00C7AC90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AB388061FD6367D00C7AC90 /* 新浪微博swift */;
+			target = 7AB388061FD6367D00C7AC90 /* weiboSwift */;
 			targetProxy = 7AB388271FD6367D00C7AC90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1124,17 +1114,18 @@
 		};
 		7AB388301FD6367D00C7AC90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA110314FA54AB5BA9ECF9E7 /* Pods-新浪微博swift.debug.xcconfig */;
+			baseConfigurationReference = 515A95A85E43A580F2B2650D /* Pods-weiboSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "新浪微博swift/Info.plist";
+				DEVELOPMENT_TEAM = S742KHHQ9J;
+				INFOPLIST_FILE = weiboSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-23.----swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hellovoidworld.HVWWeibo-gaojin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "新浪微博swift/WeiBo-Bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "weiboSwift/WeiBo-Bridge.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1142,17 +1133,18 @@
 		};
 		7AB388311FD6367D00C7AC90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38DC9ECD27FB6ECB9908AE52 /* Pods-新浪微博swift.release.xcconfig */;
+			baseConfigurationReference = D58EC14B22BDB37B99AD8A5B /* Pods-weiboSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "新浪微博swift/Info.plist";
+				DEVELOPMENT_TEAM = S742KHHQ9J;
+				INFOPLIST_FILE = weiboSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-23.----swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hellovoidworld.HVWWeibo-gaojin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "新浪微博swift/WeiBo-Bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "weiboSwift/WeiBo-Bridge.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1170,7 +1162,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/新浪微博swift.app/新浪微博swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiboSwift.app/weiboSwift";
 			};
 			name = Debug;
 		};
@@ -1186,7 +1178,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/新浪微博swift.app/新浪微博swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiboSwift.app/weiboSwift";
 			};
 			name = Release;
 		};
@@ -1223,7 +1215,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AB388021FD6367D00C7AC90 /* Build configuration list for PBXProject "新浪微博swift" */ = {
+		7AB388021FD6367D00C7AC90 /* Build configuration list for PBXProject "weiboSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AB3882D1FD6367D00C7AC90 /* Debug */,
@@ -1232,7 +1224,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AB3882F1FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "新浪微博swift" */ = {
+		7AB3882F1FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "weiboSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AB388301FD6367D00C7AC90 /* Debug */,
@@ -1241,7 +1233,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AB388321FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "新浪微博swiftTests" */ = {
+		7AB388321FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "weiboSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AB388331FD6367D00C7AC90 /* Debug */,
@@ -1250,7 +1242,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AB388351FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "新浪微博swiftUITests" */ = {
+		7AB388351FD6367D00C7AC90 /* Build configuration list for PBXNativeTarget "weiboSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AB388361FD6367D00C7AC90 /* Debug */,
