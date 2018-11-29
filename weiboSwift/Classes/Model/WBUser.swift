@@ -27,8 +27,8 @@ class WBUser: NSObject {
     init(jsonData: JSON) {
         
         id = jsonData["id"].int64 ?? 0
-        screen_name = jsonData["screen_name"].stringValue
-        profile_image_url = jsonData["profile_image_url"].stringValue
+        screen_name = "pppp" // jsonData["screen_name"].stringValue
+        profile_image_url = "qqqqq" //jsonData["profile_image_url"].stringValue
         verified_type = jsonData["verified_type"].int ?? 0
         mbrank = jsonData["mbrank"].int ?? 0
         
