@@ -38,7 +38,7 @@ class WBMainViewController: UITabBarController {
         setUpChildControllers()
         setupComposeButon()
         
-        setUpTimer()
+        // setUpTimer()
         
         // 设置新特性视图
         setupNewfeatureViews()

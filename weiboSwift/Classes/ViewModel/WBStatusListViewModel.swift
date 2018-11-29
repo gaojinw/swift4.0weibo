@@ -47,20 +47,16 @@ class WBStatusListViewModel {
             var array = [WBStatusViewModel]()
             
             if pullUp {
-                // for json in jsonData {
-                for _ in since_id...(since_id+max_id) {
-                    // let model = WBStatus(jsonData:json)
-                    let model = WBStatus(jsonData:JSON(parseJSON: ""))
+                for json in jsonData {
+                    let model = WBStatus(jsonData:json)
                     let viewModel = WBStatusViewModel(model: model)
                     self.statusList.append(viewModel)
                     array.append(viewModel)
                 }
                 
             }else{
-                // for json in jsonData.reversed() {
-                for _ in since_id...(since_id+max_id) {
-                    // let model = WBStatus(jsonData:json)
-                    let model = WBStatus(jsonData:JSON(parseJSON: ""))
+                for json in jsonData.reversed() {
+                    let model = WBStatus(jsonData:json)
                     let viewModel = WBStatusViewModel(model: model)
                     self.statusList.insert(viewModel, at: 0)
                     array.append(viewModel)

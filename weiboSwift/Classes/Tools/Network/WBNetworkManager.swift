@@ -16,30 +16,35 @@ class WBNetworkManager {
     
     static let shared = WBNetworkManager()
     
-    
 //    lazy var userAccount = WBUserAccount()
     
     lazy var userAccount: WBUserAccount = {
-        guard let path = accountFile.cz_appendDocumentDir(),
-            let data = NSData(contentsOfFile: path),
-            let dict = try? JSONSerialization.jsonObject(with: data as Data, options: []) as? [String: Any] else{
-                return WBUserAccount()
-        }
-
-        let jsonData = JSON.init(dict as Any)
-        let model = WBUserAccount(jsonData: jsonData)
-
-
-        if model.expriresDate?.caseInsensitiveCompare("\(NSDate())") != .orderedDescending {
-
-            print("账户过期")
-
-            // 清空 token
-            model.access_token = nil
-            model.uid = nil
-            // 删除帐户文件
-            _ = try? FileManager.default.removeItem(atPath: path)
-        }
+        let model = WBUserAccount()
+        
+        model.access_token = "123456"
+        model.uid = "2696529823"
+        model.screen_name = "gaojin"
+        
+//        guard let path = accountFile.cz_appendDocumentDir(),
+//            let data = NSData(contentsOfFile: path),
+//            let dict = try? JSONSerialization.jsonObject(with: data as Data, options: []) as? [String: Any] else{
+//                return WBUserAccount()
+//        }
+//
+//        let jsonData = JSON.init(dict as Any)
+//        let model = WBUserAccount(jsonData: jsonData)
+//
+//
+//        if model.expriresDate?.caseInsensitiveCompare("\(NSDate())") != .orderedDescending {
+//
+//            print("账户过期")
+//
+//            // 清空 token
+//            model.access_token = nil
+//            model.uid = nil
+//            // 删除帐户文件
+//            _ = try? FileManager.default.removeItem(atPath: path)
+//        }
 
         return model
         
@@ -71,7 +76,7 @@ class WBNetworkManager {
             paramters = [String: AnyObject]()
         }
         
-        paramters!["access_token"] = token as AnyObject
+        // paramters!["access_token"] = token as AnyObject
         
         // 3> 判断 name 和 data
         if let name = name, let data = data {

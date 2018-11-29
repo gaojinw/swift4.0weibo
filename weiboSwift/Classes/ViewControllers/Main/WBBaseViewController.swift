@@ -27,7 +27,6 @@ class WBBaseViewController: UIViewController {
         setupUI()
         
         WBNetworkManager.shared.userLogin ? loadData() : ()
-        loadData()
         NotificationCenter.default.addObserver(self, selector: #selector(loginSuccess), name: NSNotification.Name(rawValue: WBUserLoginSuccessNotification), object: nil)
     }
     
@@ -53,8 +52,7 @@ class WBBaseViewController: UIViewController {
         setUpNavigationBar()
         
         
-        // WBNetworkManager.shared.userLogin ? setupTableView() : setupVisitorView()
-        setupTableView()
+        WBNetworkManager.shared.userLogin ? setupTableView() : setupVisitorView()
         
     }
     

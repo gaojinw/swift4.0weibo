@@ -21,8 +21,6 @@ class WBStatusListDAL {
     /// - parameter completion: 完成回调(微博的字典数组，是否成功)
     class func loadStatus(since_id: Int64 = 0, max_id: Int64 = 0, completion: @escaping (_ list: [[String: AnyObject]]?, _ isSuccess: Bool)->()) {
         guard let userId = WBNetworkManager.shared.userAccount.uid else {
-            let array = [[String: AnyObject]]()
-            completion(array, true)
             return
         }
         

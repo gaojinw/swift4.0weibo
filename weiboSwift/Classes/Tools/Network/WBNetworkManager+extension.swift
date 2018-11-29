@@ -12,20 +12,41 @@ import SwiftyJSON
 
 extension WBNetworkManager {
     
-    
-    
     func statusList(since_id: Int64 = 0, max_id: Int64 = 0, completion: @escaping (_ list: [[String: AnyObject]], _ isSuccess: Bool)->()) {
         
+        let urlString = "http://i.datastrategy.weibo.com/engine/miniprogram/funny_story/feed.json"
+        // let urlString = "https://api.weibo.com/2/statuses/home_timeline.json"
         
-        let urlString = "https://api.weibo.com/2/statuses/home_timeline.json"
-        
-        let params = ["since_id": "\(since_id)",
-            "max_id": "\(max_id > 0 ? max_id - 1 : 0)"]
+//        let params = ["since_id": "\(since_id)",
+//            "max_id": "\(max_id > 0 ? max_id - 1 : 0)"]
+        // gaojin, need to modify
+        let params = ["num": "\(max_id - since_id + 1)",
+            "type": "0",
+            "source": "134291584",
+            "uid": "\(userAccount.uid!)"]
         
         tokenRequest(method: .get, urlString: urlString, paramters:params as [String : AnyObject]) { (json, isSuccess) in
             
-            let result = json?["statuses"] as? [[String: AnyObject]]
-            completion(result ?? [], isSuccess)
+            // let result = json?["statuses"] as? [[String: AnyObject]]
+            let data = json?["data"] as? [String:AnyObject]
+            if let results = data?["result_list"] as? [[String:AnyObject]] {                
+                for result in results {
+                    let mid = result["mid"] as? Int64
+                    
+                    let urlString = "http://i2.api.weibo.com/2/statuses/show.json"
+                    let params = ["id": "\(mid!)",
+                        "source": "445670032"]
+                    
+                    self.tokenRequest(method: .get, urlString: urlString, paramters: params as [String : AnyObject]) { (json, isSuccess) in
+                        if let jj = json as? [String : AnyObject] {
+                            var pp: [[String: AnyObject]] = []
+                            pp.append(jj)
+                            completion(pp, isSuccess)
+                        }
+                    }
+                }
+                
+            }
             
         }
         

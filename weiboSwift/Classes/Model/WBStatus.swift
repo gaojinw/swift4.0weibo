@@ -36,13 +36,13 @@ class WBStatus: NSObject {
     
     init(jsonData: JSON) {
         id = jsonData["id"].int64 ?? 0
-        text = "aaaaaaa" // jsonData["text"].stringValue
-        source = "bbbbbbb" // jsonData["source"].stringValue
-        created_at = "cccccccc" // jsonData["created_at"].stringValue
+        text = jsonData["text"].stringValue
+        source = jsonData["source"].stringValue
+        created_at = jsonData["created_at"].stringValue
         reposts_count = jsonData["reposts_count"].int ?? 0
         comments_count = jsonData["comments_count"].int ?? 0
         attitudes_count = jsonData["attitudes_count"].int ?? 0
-        user = WBUser(jsonData: JSON(parseJSON: "")) //user = WBUser(jsonData: jsonData["user"])
+        user = WBUser(jsonData: jsonData["user"])
         
         createdDate = Date.cz_sinaDate(string: created_at ?? "")
         
