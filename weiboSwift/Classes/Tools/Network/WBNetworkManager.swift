@@ -19,32 +19,27 @@ class WBNetworkManager {
 //    lazy var userAccount = WBUserAccount()
     
     lazy var userAccount: WBUserAccount = {
-        let model = WBUserAccount()
         
-        model.access_token = "123456"
-        model.uid = "2696529823"
-        model.screen_name = "gaojin"
-        
-//        guard let path = accountFile.cz_appendDocumentDir(),
-//            let data = NSData(contentsOfFile: path),
-//            let dict = try? JSONSerialization.jsonObject(with: data as Data, options: []) as? [String: Any] else{
-//                return WBUserAccount()
-//        }
-//
-//        let jsonData = JSON.init(dict as Any)
-//        let model = WBUserAccount(jsonData: jsonData)
-//
-//
-//        if model.expriresDate?.caseInsensitiveCompare("\(NSDate())") != .orderedDescending {
-//
-//            print("账户过期")
-//
-//            // 清空 token
-//            model.access_token = nil
-//            model.uid = nil
-//            // 删除帐户文件
-//            _ = try? FileManager.default.removeItem(atPath: path)
-//        }
+        guard let path = accountFile.cz_appendDocumentDir(),
+            let data = NSData(contentsOfFile: path),
+            let dict = try? JSONSerialization.jsonObject(with: data as Data, options: []) as? [String: Any] else{
+                return WBUserAccount()
+        }
+
+        let jsonData = JSON.init(dict as Any)
+        let model = WBUserAccount(jsonData: jsonData)
+
+
+        if model.expriresDate?.caseInsensitiveCompare("\(NSDate())") != .orderedDescending {
+
+            print("账户过期")
+
+            // 清空 token
+            model.access_token = nil
+            model.uid = nil
+            // 删除帐户文件
+            _ = try? FileManager.default.removeItem(atPath: path)
+        }
 
         return model
         
